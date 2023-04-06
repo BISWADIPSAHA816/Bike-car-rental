@@ -89,10 +89,10 @@ var swiper = new Swiper(".review-slider", {
   grabCursor: true,
   centeredSlides: true,  
   spaceBetween: 20,
-  loop:true,
+  loop:false,
   autoplay: {
     delay: 9500,
-    disableOnInteraction: false,
+    disableOnInteraction: true,
   },
   pagination: {
     el: ".swiper-pagination",

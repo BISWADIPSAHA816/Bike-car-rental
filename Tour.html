@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Product List</title>
+    <link rel="stylesheet" href="tour.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="filter-panel">
+            <h2>Filters</h2>
+            <form>
+                <fieldset>
+                    <legend>Price Range</legend>
+                    <select>
+              <option value="">Select Price Range</option>
+              <option value="0-100">0 - 100</option>
+              <option value="100-200">100 - 200</option>
+              <option value="200-300">200 - 300</option>
+              <option value="300-400">300 - 400</option>
+            </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Brand</legend>
+                    <label>
+              <input type="checkbox" name="brand" value="Nike" />
+              Nike
+            </label>
+                    <label>
+              <input type="checkbox" name="brand" value="Adidas" />
+              Adidas
+            </label>
+                    <label>
+              <input type="checkbox" name="brand" value="Puma" />
+              Puma
+            </label>
+                </fieldset>
+
+                <button type="submit">Apply Filters</button>
+            </form>
+        </div>
+
+        <div class="product-list">
+            <h1>Product List</h1>
+            <ul>
+                <li>
+                    <img src="https://via.placeholder.com/150x150.png?text=Product+Image" alt="Product Image" />
+                    <h2>Product Name</h2>
+                    <p>Price: $50</p>
+                </li>
+                <li>
+                    <img src="https://via.placeholder.com/150x150.png?text=Product+Image" alt="Product Image" />
+                    <h2>Product Name</h2>
+                    <p>Price: $100</p>
+                </li>
+                <li>
+                    <img src="https://via.placeholder.com/150x150.png?text=Product+Image" alt="Product Image" />
+                    <h2>Product Name</h2>
+                    <p>Price: $200</p>
+                </li>
+                <li>
+                    <img src="https://via.placeholder.com/150x150.png?text=Product+Image" alt="Product Image" />
+                    <h2>Product Name</h2>
+                    <p>Price: $300</p>
+                </li>
+                <li>
+                    <img src="https://via.placeholder.com/150x150.png?text=Product+Image" alt="Product Image" />
+                    <h2>Product Name</h2>
+                    <p>Price: $400</p>
+                </li>
+            </ul>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+main {
+    display: flex;
+    margin: 20px;
+}
+
+.filter-panel {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.filter-panel h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.filter-panel form {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-panel fieldset {
+    border: none;
+    margin-bottom: 10px;
+}
+
+.filter-panel legend {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.filter-panel select {
+    font-size: 1.2rem;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.filter-panel label {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.product-list {
+    flex: 3;
+}
+
+.product-list h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.product-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.product-list li {
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-list img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.product-list h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.product-list p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
